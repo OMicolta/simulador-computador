@@ -7,6 +7,7 @@ package cpu;
 
 import org.junit.After;
 import org.junit.AfterClass;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -48,6 +49,6 @@ public class DataRegisterTest {
         Integer[] result = instance.getDividedValue();
         Integer[] expResult = new Integer[]{0b0100,0b0001};
     
-        assertEquals(expResult, result);
+        Assert.assertArrayEquals(expResult, result);
     }
 }

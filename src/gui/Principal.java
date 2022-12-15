@@ -6,6 +6,7 @@
 package gui;
 
 import cpu.Synchronizer;
+import java.util.Arrays;
 import units.Counter;
 
 
@@ -161,7 +162,7 @@ public class Principal extends javax.swing.JFrame {
         jScrollPane6.setViewportView(jList6);
 
         getContentPane().add(jScrollPane6);
-        jScrollPane6.setBounds(750, 100, 90, 150);
+        jScrollPane6.setBounds(750, 250, 90, 250);
 
         jLabel6.setText("Contenido");
         getContentPane().add(jLabel6);
@@ -175,7 +176,7 @@ public class Principal extends javax.swing.JFrame {
         jScrollPane7.setViewportView(jList7);
 
         getContentPane().add(jScrollPane7);
-        jScrollPane7.setBounds(840, 100, 160, 150);
+        jScrollPane7.setBounds(840, 250, 160, 250);
 
         jPanel1.setBackground(new java.awt.Color(204, 0, 0));
         jPanel1.setLayout(null);
@@ -258,7 +259,7 @@ public class Principal extends javax.swing.JFrame {
         jScrollPane9.setViewportView(jList9);
 
         getContentPane().add(jScrollPane9);
-        jScrollPane9.setBounds(750, 250, 90, 250);
+        jScrollPane9.setBounds(750, 100, 90, 150);
 
         jList10.setModel(new javax.swing.AbstractListModel() {
             String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" };
@@ -268,7 +269,7 @@ public class Principal extends javax.swing.JFrame {
         jScrollPane10.setViewportView(jList10);
 
         getContentPane().add(jScrollPane10);
-        jScrollPane10.setBounds(840, 250, 160, 250);
+        jScrollPane10.setBounds(840, 100, 160, 150);
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gui/cpu.png"))); // NOI18N
         getContentPane().add(jLabel8);
@@ -304,7 +305,7 @@ public class Principal extends javax.swing.JFrame {
 
     private void setConfig(){
         int i = 0;
-         jList1.setListData(this.sync.getValues(i++));
+        jList1.setListData(this.sync.getValues(i++));
         jList2.setListData(this.sync.getValues(i++));
         jList3.setListData(this.sync.getValues(i++));
         jList4.setListData(this.sync.getValues(i++));
@@ -314,6 +315,7 @@ public class Principal extends javax.swing.JFrame {
         jList8.setListData(this.sync.getValues(i++));
         jList9.setListData(this.sync.getValues(i++));
         jList10.setListData(this.sync.getValues(i++));
+
     }
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
