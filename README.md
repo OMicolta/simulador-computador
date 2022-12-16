@@ -1,5 +1,5 @@
 # CPU simulation
 
-Von Newman Arquitecture simulated. 
+Arquitectura Von Neumann
 
-This project simulates the functioning of the CPU arquitecture. It intends to show the flow of Data among the internal components of the Processing Unit.
+Proyecto practico de el curso de arquitectura de computadores
