@@ -6,6 +6,7 @@
 package cpu;
 
 import gui.Principal;
+import javax.swing.JOptionPane;
 
 public class CPU {
 
@@ -13,10 +14,12 @@ public class CPU {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+       
         Synchronizer principal = new Synchronizer(1);
         principal.tick();
         new Principal(principal)
                 .setVisible(true);
+        
 
     }
 

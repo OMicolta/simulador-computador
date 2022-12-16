@@ -20,7 +20,8 @@ public class MemoryUnit {
         switch(ejercicio){
             case 1:
             {
-            //EJERCICIO 1 (197-186)+(14^2)            
+            //EJERCICIO 1 (197-186)+(14^2) 
+            
             rom.put(0b0000+(i++), 0b10000000);
             rom.put(0b0000+(i++), 0b10010001);
             rom.put(0b0000+(i++), 0b11001000);
@@ -29,12 +30,20 @@ public class MemoryUnit {
             rom.put(0b0000+(i++), 0b11000000);
             rom.put(0b0000+(i++), 0b11101000);
             rom.put(0b0000+(i++), 0b00001001);
-            
+                System.out.println("rom"+rom.toString());
+                System.out.println("B");
             i = 0;
             ram.put(0b1000+(i++), 0b11000101);
             ram.put(0b1000+(i++), 0b10111010);
             ram.put(0b1000+(i++), 0b00001110);
             ram.put(0b1000+(i++), 0b00000010);
+            
+            System.out.println(" si "+0b11000101);
+            System.out.println(" si "+0b10111010);
+            System.out.println(" si "+0b00001110);
+            System.out.println(" si "+0b00000010);
+
+
             }
             break;
                 
