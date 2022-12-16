@@ -26,7 +26,7 @@ public class Synchronizer implements Clock {
     }
 
     /**
-     * Synchronizes all internal component activity with the clocks pulse.
+     * Sincroniza toda la actividad de los componentes internos con el pulso del reloj.
      */
     @Override
     public void tick() {

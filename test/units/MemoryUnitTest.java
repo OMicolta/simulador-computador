@@ -12,10 +12,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-/**
- *
- * @author juandavid
- */
+
 public class MemoryUnitTest {
     
     public MemoryUnitTest() {
@@ -38,7 +35,7 @@ public class MemoryUnitTest {
     }
 
     /**
-     * Test of getContent method, of class MemoryUnit.
+     * Prueba del método getContent, de clase MemoryUnit.
      */
     @Test
     public void testGetContentROM() {

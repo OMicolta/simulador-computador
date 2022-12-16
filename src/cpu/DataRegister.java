@@ -9,12 +9,9 @@ package cpu;
 public class DataRegister extends Register{
     
     /**
-     * This method takes the actual registry it has and divides it into two parts. That is,
-     * takes a Byte and returns two nibbles. This simulates the moving of data from the Data Registry
-     * to the Directions Registry and the Instructions Registry
+     * Toma el registro real que tiene y lo divide en dos partes: Regiatro de datos y Regisatro de direcciones
      *
-     * @return Array of values corresponding to the Directions Register(prefix)
-     * and the Instructions Register(suffix)
+     * @return Array de valores correspondiente al registro de direccion y registro de instruccion
      */
     public Integer[] getDividedValue(){
         String tempVal = Integer.toBinaryString(super.getLastRegistry());

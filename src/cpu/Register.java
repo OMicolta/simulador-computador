@@ -30,12 +30,10 @@ public class Register {
     }
     
     /**
-     * This method return the historical records of the values that the Register has taken
-     * with the size given. This is due to the fact that some registers work with nibbles 
-     * whilst others work with bytes.
+     * Devuelve los registros históricos de los valores que ha tomado el Registro con el tamaño dado.
      *
-     * @param regSize the size of the values to return.
-     * @return String array with the records the Register has taken in.
+     * @param regSize El tamano de los valores a devolver.
+     * @return Matriz de cadenas con los registros que ha tomado el Registro.
      */
     public String[] getAllItems(int regSize){
         String[] array = new String[this.records.size()];

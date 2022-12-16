@@ -36,16 +36,16 @@ public enum Operation {
     }
     
     /**
-     * This method Decodes the nibble taken into the corresponding operation to execute by the ALU
+     * Decodifica el codigo de operación correspondiente a ejecutar por la ALU
      *
-     * @param value The direction of the Operation to execute
-     * @return Operation taken from memory table
+     * @param value La direccion de la operacion a ejecutar
+     * @return Operación tomada de la tabla de memoria
      */
     public static Operation decode(int value) {
         for (Operation object : Operation.values()) {
            if(object.getDirection() == value) return object; 
         }
         
-       throw new IllegalArgumentException("Non-existent operation for ALU");
+       throw new IllegalArgumentException("No existe operacion para la ALU");
     }
 }

@@ -12,10 +12,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-/**
- *
- * @author juandavid
- */
+
 public class DataRegisterTest {
     
     public DataRegisterTest() {
@@ -38,7 +35,7 @@ public class DataRegisterTest {
     }
 
     /**
-     * Test of getPrefix method, of class DataRegister.
+     * Prueba del método getPrefix, de la clase DataRegister.
      */
     @Test
     public void testGetPrefix1() {
